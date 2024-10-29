@@ -4,14 +4,17 @@ kernelspec:
   display_name: Python 3
   name: python3
 ---
-# yt
+# Quick Start
 
+## Installation 
 
-## quick look 
+## Sample code 
 
 ```{code-cell} ipython3
 import yt 
 ds = yt.load_sample("IsolatedGalaxy")
 yt.SlicePlot(ds, 'x', ('gas', 'density'))
 ```
+
+For more, check out the full yt docs!
 
