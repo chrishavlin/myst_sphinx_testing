@@ -5,8 +5,7 @@ the yt-project...
 ```{toctree}
 :maxdepth: 2
 
-yt
-formats
+yt/index
 community/index
 gallery
 projectmembers

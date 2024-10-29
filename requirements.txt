@@ -1,4 +1,8 @@
 myst-parser
+myst_nb
 sphinx
 pydata-sphinx-theme
 sphinx_design
+yt[enzo]
+pooch
+pandas

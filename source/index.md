@@ -31,12 +31,10 @@ B
 
 `````{div} dropdown-group
 
-````{dropdown} SlicePlot
-```python
-import yt 
-ds = yt.load_sample("IsolatedGalaxy")
-yt.SlicePlot(ds, 'x', ('gas', 'density'))
-```
+````{dropdown} Dropdown A
+
+content A
+
 ````
 
 ````{dropdown} Dropdown B
@@ -44,6 +42,9 @@ Dropdown content B
 ````
 
 `````
+
+
+
 
 
 ```{toctree}

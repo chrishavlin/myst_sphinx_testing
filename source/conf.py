@@ -17,7 +17,7 @@ author = 'yt development team'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["myst_parser",
+extensions = ["myst_nb",
               "sphinx_design",  # for cards, grids,
               ]
 
@@ -34,7 +34,8 @@ html_static_path = ['_static']
 html_theme_options = {
     "logo": {
         "text": "yt Project",
-        "image_dark": "_static/logo-dark.svg",
+        "image_light": "_static/yt_logo.svg",
+        "image_dark": "_static/yt_logo.svg",
     },
     "external_links": [
           {"name": "Data hub", "url": "https://hub.yt/"},
